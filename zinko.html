@@ -1,4 +1,5 @@
 <!doctype html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -18,131 +19,169 @@
       </span>
     </div>
 
-    <nav class="top-nav" aria-label="Main navigation">
-      <a href="index.html">Home</a>
-      <a href="zinko-flap/index.html">Zinko Flap</a>
-      <a href="ring-runner/index.html">Ring Runner</a>
-    </nav>
+```
+<nav class="top-nav">
+  <a href="index.html">Home</a>
+  <a href="zinko-flap/index.html">Zinko Flap</a>
+  <a href="ring-runner/index.html">Ring Runner</a>
+</nav>
+```
+
   </div>
 </header>
 
 <div class="wrap page-shell">
   <main class="main-column">
 
-    <section class="home-hero" style="text-align:center;">
-      <div class="hero-badge">Character Profile</div>
+```
+<!-- 🔥 HERO TITLE SECTION -->
+<section class="home-hero" style="position:relative; text-align:center; overflow:hidden;">
 
-      <img
-        src="images/ZinkoSign.png"
-        alt="Zinko logo sign"
-        class="zinko-logo"
-        style="
-          width: 320px;
-          max-width: 90%;
-          margin: 10px auto 20px;
-          display: block;
-        "
-      />
+  <!-- BACKGROUND ZINKO -->
+  <img
+    src="images/Zinko_thumb.png"
+    alt="Zinko"
+    style="
+      position:absolute;
+      left:50%;
+      top:50%;
+      transform:translate(-50%, -50%);
+      width:420px;
+      opacity:0.18;
+      z-index:1;
+      pointer-events:none;
+    "
+  />
 
-      <p class="hero-copy" style="max-width:700px; margin:0 auto;">
-        Zinko is the heart of Brassworks Entertainment — a fearless flyer with a stubborn streak and a love for chaos.
+  <!-- FOREGROUND CONTENT -->
+  <div style="position:relative; z-index:2;">
+    <div class="hero-badge">Character Profile</div>
+
+    <!-- SIGN -->
+    <img
+      src="images/ZinkoSign.png"
+      class="zinko-logo"
+      alt="Zinko Logo"
+      style="
+        width:320px;
+        max-width:90%;
+        margin:10px auto 20px;
+      "
+    />
+
+    <p class="hero-copy" style="max-width:700px; margin:0 auto;">
+      Zinko is the heart of Brassworks Entertainment — a fearless flyer with a stubborn streak and a love for chaos.
+    </p>
+  </div>
+
+</section>
+
+<!-- BIO -->
+<section class="home-section">
+  <div class="section-heading">
+    <h2>Biography</h2>
+  </div>
+
+  <div class="grid single-column-grid">
+    <article class="card">
+      <p>
+        Zinko isn’t just a character — he’s a survivor. Built for speed and reaction,
+        he lives for the challenge of navigating impossible paths.
       </p>
-    </section>
 
-    <section class="home-section">
-      <div class="section-heading">
-        <h2>Biography</h2>
+      <p>
+        Whether it’s soaring through tight gaps or pushing past his limits,
+        Zinko never backs down from a challenge.
+      </p>
+
+      <p>
+        His world is unpredictable — and that’s exactly how he likes it.
+      </p>
+    </article>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="home-section">
+  <div class="section-heading">
+    <h2>Gallery</h2>
+  </div>
+
+  <div class="grid single-column-grid">
+    <article class="card">
+
+      <div style="
+        display:grid;
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        gap:16px;
+        align-items:start;
+      ">
+
+        <div style="text-align:center;">
+          <img src="images/Zinko_chilled.png" style="width:110px; margin:auto;" />
+          <p style="font-size:12px; color:var(--text-muted);">Chilled</p>
+        </div>
+
+        <div style="text-align:center;">
+          <img src="images/Zinko_normal.png" style="width:110px; margin:auto;" />
+          <p style="font-size:12px; color:var(--text-muted);">Standard</p>
+        </div>
+
+        <div style="text-align:center;">
+          <img src="images/Zinko_thumb.png" style="width:110px; margin:auto;" />
+          <p style="font-size:12px; color:var(--text-muted);">Thumbs Up</p>
+        </div>
+
       </div>
 
-      <div class="grid single-column-grid">
-        <article class="card">
-          <p>
-            Zinko isn’t just a character — he’s a survivor. Built for speed and reaction,
-            he lives for the challenge of navigating impossible paths.
-          </p>
-
-          <p>
-            Whether it’s soaring through tight gaps or pushing past his limits,
-            Zinko never backs down from a challenge.
-          </p>
-
-          <p>
-            His world is unpredictable — and that’s exactly how he likes it.
-          </p>
-        </article>
-      </div>
-    </section>
-
-    <section class="home-section">
-      <div class="section-heading">
-        <h2>Gallery</h2>
-      </div>
-
-      <div class="grid single-column-grid">
-        <article class="card">
-          <div class="zinko-gallery-grid">
-            <div class="zinko-gallery-item">
-              <img src="images/Zinko_chilled.png" alt="Zinko chilled pose" />
-              <p>Chilled</p>
-            </div>
-
-            <div class="zinko-gallery-item">
-              <img src="images/Zinko_normal.png" alt="Zinko standing pose" />
-              <p>Standard</p>
-            </div>
-
-            <div class="zinko-gallery-item">
-              <img src="images/Zinko_thumb.png" alt="Zinko thumbs up pose" />
-              <p>Thumbs Up</p>
-            </div>
-          </div>
-        </article>
-      </div>
-    </section>
+    </article>
+  </div>
+</section>
+```
 
   </main>
 
+  <!-- SIDEBAR -->
+
   <aside class="sidebar">
-    <section class="sidebar-card">
-      <h3>Navigation</h3>
-      <nav class="side-nav" aria-label="Sidebar navigation">
-        <a href="index.html">Home</a>
-        <a href="zinko-flap/index.html">Zinko Flap</a>
-        <a href="ring-runner/index.html">Ring Runner</a>
-      </nav>
-    </section>
 
-    <section class="sidebar-card">
-      <h3>Zinko</h3>
-      <div class="info-block" style="text-align:center;">
-        <img
-          src="images/Zinko_thumb.png"
-          alt="Zinko thumbs up"
-          class="zinko-sidebar-hero"
-        />
-        <p style="margin-bottom:0;">
-          Friendly, energetic, and always ready for the next challenge.
-        </p>
-      </div>
-    </section>
+```
+<section class="sidebar-card">
+  <h3>Navigation</h3>
+  <nav class="side-nav">
+    <a href="index.html">Home</a>
+    <a href="zinko-flap/index.html">Zinko Flap</a>
+    <a href="ring-runner/index.html">Ring Runner</a>
+  </nav>
+</section>
 
-    <section class="sidebar-card">
-      <h3>Studio</h3>
-      <div class="info-block">
-        <p>
-          Brassworks Entertainment is building arcade-style games with a focus on fun, replayability, and strong visual identity.
-        </p>
-        <p>
-          Contact: <a href="mailto:gamerguru81@outlook.com">gamerguru81@outlook.com</a>
-        </p>
-      </div>
-    </section>
+<section class="sidebar-card">
+  <h3>Zinko</h3>
+  <div style="text-align:center;">
+    <img src="images/Zinko_thumb.png" style="width:180px; margin:auto;" />
+    <p style="margin-top:10px;">
+      Friendly, energetic, and always ready for the next challenge.
+    </p>
+  </div>
+</section>
+
+<section class="sidebar-card">
+  <h3>Studio</h3>
+  <p>
+    Brassworks Entertainment is building arcade-style games with a focus on fun, replayability, and strong visual identity.
+  </p>
+  <p>
+    Contact: <a href="mailto:gamerguru81@outlook.com">gamerguru81@outlook.com</a>
+  </p>
+</section>
+```
+
   </aside>
 </div>
 
 <footer class="footer">
   <div class="wrap footer-inner">
-    <p>&copy; 2026 Brassworks Entertainment. All rights reserved.</p>
+    <p>&copy; 2026 Brassworks Entertainment</p>
   </div>
 </footer>
 
