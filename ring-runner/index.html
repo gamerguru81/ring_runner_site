@@ -1,127 +1,105 @@
 <!doctype html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ring Runner | Brassworks Entertainment</title>
-  <meta
-    name="description"
-    content="Official Ring Runner page with game information, support details, and privacy policy access."
-  />
-  <link rel="stylesheet" href="../style.css" />
+  <title>Brassworks Entertainment</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="topbar">
-    <div class="wrap topbar-inner">
-      <a class="brand" href="../index.html" aria-label="Brassworks Entertainment home">
-        <span class="brand-mark">BE</span>
-        <span class="brand-text">
-          <strong>Brassworks Entertainment</strong>
-          <small>Official Apps & Games</small>
-        </span>
-      </a>
 
-      <nav class="top-nav" aria-label="Main navigation">
-        <a href="../index.html">Home</a>
-        <a class="active" href="index.html">Ring Runner</a>
-        <a href="privacy.html">Privacy Policy</a>
-        <a href="#support">Support</a>
-      </nav>
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <div class="brand">
+      <span class="brand-mark">BE</span>
+      <span class="brand-text">
+        <strong>Brassworks Entertainment</strong>
+        <small>Official Games & Apps</small>
+      </span>
     </div>
-  </header>
-
-  <div class="wrap page-shell">
-    <main class="main-column">
-      <section class="hero app-hero">
-        <img
-          class="app-icon"
-          src="../images/ring-runner-icon.png"
-          alt="Ring Runner app icon"
-        />
-
-        <div>
-          <div class="hero-badge">Official Game Page</div>
-          <h1>Ring Runner</h1>
-          <p class="hero-copy">
-            Ring Runner is an endless runner built around quick reactions, movement rhythm,
-            collecting rings, and surviving hazards for as long as possible.
-          </p>
-
-          <ul class="meta-list">
-            <li><strong>Developer:</strong> Brassworks Entertainment</li>
-            <li><strong>Platform:</strong> Android</li>
-            <li><strong>Genre:</strong> Endless Runner</li>
-          </ul>
-
-          <div class="button-row">
-            <a class="btn btn-primary" href="privacy.html">Privacy Policy</a>
-            <a class="btn btn-secondary" href="../index.html">Back to Main Site</a>
-          </div>
-        </div>
-      </section>
-
-      <section class="grid">
-        <article class="card card-feature">
-          <div class="section-label">About</div>
-          <h2>Game Overview</h2>
-          <p>
-            Ring Runner focuses on fast, readable gameplay with simple controls and increasing challenge.
-            Players dodge hazards, collect rings, unlock progress, and push for better distance and score runs.
-          </p>
-        </article>
-
-        <article class="card">
-          <div class="section-label">Privacy</div>
-          <h2>Policy Access</h2>
-          <p>
-            The official privacy policy for Ring Runner is available publicly and can be accessed
-            using the button below.
-          </p>
-
-          <div class="button-row">
-            <a class="btn btn-primary" href="privacy.html">Open Privacy Policy</a>
-          </div>
-        </article>
-
-        <article class="card" id="support">
-          <div class="section-label">Support</div>
-          <h2>Contact</h2>
-          <p>
-            For support or privacy-related enquiries, contact:
-          </p>
-
-          <p class="contact-link">
-            <a href="mailto:gamerguru81@outlook.com">gamerguru81@outlook.com</a>
-          </p>
-        </article>
-      </section>
-    </main>
-
-    <aside class="sidebar">
-      <section class="sidebar-card">
-        <h3>Navigation</h3>
-        <nav class="side-nav" aria-label="Sidebar navigation">
-          <a href="../index.html">Home</a>
-          <a class="active" href="index.html">Ring Runner</a>
-          <a href="privacy.html">Privacy Policy</a>
-          <a href="#support">Support</a>
-        </nav>
-      </section>
-
-      <section class="sidebar-card">
-        <h3>Game Info</h3>
-        <div class="info-block">
-          <p><strong>Studio</strong><br>Brassworks Entertainment</p>
-          <p><strong>Email</strong><br>gamerguru81@outlook.com</p>
-        </div>
-      </section>
-    </aside>
   </div>
+</header>
 
-  <footer class="footer">
-    <div class="wrap footer-inner">
-      <p>&copy; 2026 Brassworks Entertainment. All rights reserved.</p>
+<div class="wrap page-shell">
+  <main class="main-column">
+
+```
+<section class="hero">
+  <h1>Brassworks Entertainment</h1>
+  <p class="hero-copy">
+    Official hub for all released games, active tests, and upcoming projects.
+  </p>
+</section>
+
+<!-- RELEASED -->
+<section class="home-section">
+  <div class="section-label">Released</div>
+  <h2>Available Games</h2>
+
+  <div class="grid">
+
+    <!-- Ring Runner -->
+    <div class="card">
+      <img src="images/ring-runner-icon.png" class="game-feature-icon">
+      <h3>Ring Runner</h3>
+      <p>Endless runner focused on reflex and rhythm.</p>
+
+      <div class="button-row">
+        <a class="btn btn-primary" href="ring-runner/index.html">Game Page</a>
+        <a class="btn btn-secondary" href="ring-runner/privacy.html">Policy</a>
+      </div>
     </div>
-  </footer>
+
+  </div>
+</section>
+
+<!-- TESTING -->
+<section class="home-section">
+  <div class="section-label">In Testing</div>
+  <h2>Active Builds</h2>
+
+  <div class="grid">
+
+    <!-- Zinko Flap -->
+    <div class="card">
+      <img src="images/ZinkoFlapIcon.png" class="game-feature-icon">
+      <h3>Zinko Flap</h3>
+      <p>Arcade flappy-style game with evolving mechanics.</p>
+
+      <div class="button-row">
+        <a class="btn btn-primary" href="zinko-flap/index.html">Game Page</a>
+        <a class="btn btn-secondary" href="zinko-flap/privacy.html">Policy</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- DEVELOPMENT -->
+<section class="home-section">
+  <div class="section-label">In Development</div>
+  <h2>Coming Soon</h2>
+
+  <div class="grid">
+
+    <div class="card">
+      <h3>More Projects Coming</h3>
+      <p>Future games will appear here with full pages and policies.</p>
+    </div>
+
+  </div>
+</section>
+```
+
+  </main>
+</div>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <p>&copy; 2026 Brassworks Entertainment</p>
+  </div>
+</footer>
+
 </body>
 </html>
