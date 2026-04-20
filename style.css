@@ -288,17 +288,6 @@ a:hover {
   border-color: var(--border-strong);
 }
 
-.split-dashboard {
-  display: grid;
-  grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
-  gap: 24px;
-}
-
-.dashboard-left,
-.dashboard-right {
-  min-width: 0;
-}
-
 .home-section {
   margin-bottom: 28px;
 }
@@ -345,18 +334,6 @@ a:hover {
   box-shadow: var(--shadow);
 }
 
-.info-icon {
-  width: 42px;
-  height: 42px;
-  margin-bottom: 14px;
-  border-radius: 12px;
-  display: grid;
-  place-items: center;
-  font-weight: 800;
-  color: #07111a;
-  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-2) 100%);
-}
-
 .feature-list,
 .meta-list,
 .policy-section ul {
@@ -384,24 +361,6 @@ a:hover {
   object-fit: cover;
   border-radius: 20px;
   border: 1px solid var(--border-strong);
-}
-
-.support-email {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 54px;
-  padding: 0 20px;
-  border-radius: 14px;
-  background: rgba(89, 185, 255, 0.1);
-  border: 1px solid rgba(89, 185, 255, 0.24);
-  color: var(--accent-2);
-  font-weight: 700;
-  white-space: nowrap;
-}
-
-.inline-email {
-  margin-top: 14px;
 }
 
 .sidebar {
@@ -440,22 +399,6 @@ a:hover {
   margin-bottom: 0;
 }
 
-.quick-links {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.quick-links a {
-  display: block;
-  padding: 12px 14px;
-  border-radius: 12px;
-  border: 1px solid transparent;
-  color: var(--text-soft);
-  background: rgba(255, 255, 255, 0.02);
-  transition: 0.18s ease;
-}
-
 .footer {
   margin-top: 42px;
   border-top: 1px solid rgba(128, 150, 176, 0.14);
@@ -466,57 +409,55 @@ a:hover {
   color: var(--text-muted);
 }
 
-.app-hero {
+.zinko-logo {
+  animation: zinkoGlow 3s ease-in-out infinite;
+}
+
+@keyframes zinkoGlow {
+  0% {
+    filter: drop-shadow(0 0 10px rgba(255, 150, 0, 0.20));
+  }
+  50% {
+    filter: drop-shadow(0 0 26px rgba(255, 190, 0, 0.52));
+  }
+  100% {
+    filter: drop-shadow(0 0 10px rgba(255, 150, 0, 0.20));
+  }
+}
+
+.zinko-sidebar-hero {
+  width: 220px;
+  max-width: 100%;
+  margin: 0 auto 14px;
+  display: block;
+}
+
+.zinko-gallery-grid {
   display: grid;
-  grid-template-columns: 170px minmax(0, 1fr);
-  gap: 28px;
-  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 18px;
+  align-items: start;
 }
 
-.app-icon {
-  width: 170px;
-  height: 170px;
-  object-fit: cover;
-  border-radius: 32px;
-  border: 1px solid var(--border-strong);
-  background: linear-gradient(180deg, rgba(20, 27, 38, 1) 0%, rgba(12, 17, 25, 1) 100%);
-  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+.zinko-gallery-item {
+  text-align: center;
 }
 
-.policy-section h1,
-.policy-section h2,
-.policy-section h3 {
-  color: var(--text);
+.zinko-gallery-item img {
+  width: 140px;
+  max-width: 100%;
+  margin: 0 auto 10px;
+  border-radius: 12px;
 }
 
-.policy-section h1 {
-  margin-top: 0;
-  margin-bottom: 8px;
-  font-size: clamp(2rem, 3vw, 3rem);
-}
-
-.policy-section h2 {
-  margin-top: 28px;
-  margin-bottom: 10px;
-}
-
-.policy-section h3 {
-  margin-top: 26px;
-  margin-bottom: 8px;
-}
-
-.policy-section p {
-  color: var(--text-soft);
-  margin: 0 0 14px;
-}
-
-.muted-line {
+.zinko-gallery-item p {
+  margin: 0;
   color: var(--text-muted);
+  font-size: 13px;
 }
 
 @media (max-width: 1180px) {
-  .compact-hero,
-  .split-dashboard {
+  .compact-hero {
     grid-template-columns: 1fr;
   }
 }
@@ -533,11 +474,6 @@ a:hover {
   }
 
   .side-nav {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  .quick-links {
     flex-direction: row;
     flex-wrap: wrap;
   }
@@ -562,9 +498,7 @@ a:hover {
     padding: 20px;
   }
 
-  .info-grid,
-  .game-feature-header,
-  .app-hero {
+  .game-feature-header {
     grid-template-columns: 1fr;
   }
 
@@ -574,16 +508,12 @@ a:hover {
   }
 
   .hero-mini-icon,
-  .game-feature-icon,
-  .app-icon {
+  .game-feature-icon {
     width: 100px;
     height: 100px;
   }
 
-  .support-email {
-    width: 100%;
-    justify-content: center;
-    white-space: normal;
-    text-align: center;
+  .zinko-sidebar-hero {
+    width: 170px;
   }
 }
