@@ -1,1 +1,183 @@
 
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zinko Zoom Privacy Policy | Brassworks Entertainment</title>
+  <meta
+    name="description"
+    content="Privacy Policy for Zinko Zoom by Brassworks Entertainment."
+  />
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html">
+      <span class="brand-mark">BE</span>
+      <span class="brand-text">
+        <strong>Brassworks Entertainment</strong>
+        <small>Official Apps & Games</small>
+      </span>
+    </a>
+
+    <nav class="top-nav" aria-label="Main navigation">
+      <a href="../index.html">Home</a>
+      <a href="index.html">Zinko Zoom</a>
+      <a class="active" href="privacy.html">Privacy Policy</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap page-shell">
+  <main class="main-column">
+    <section class="card policy-section">
+      <div class="hero-badge">Official Policy</div>
+      <h1>Zinko Zoom Privacy Policy</h1>
+      <p class="muted-line">Effective date: 27 April 2026</p>
+
+      <h2>Privacy Policy</h2>
+      <p>
+        Brassworks Entertainment built Zinko Zoom as a mobile game. This service is provided by
+        Brassworks Entertainment and is intended for use as is.
+      </p>
+
+      <p>
+        This page is used to inform visitors regarding our policies with the collection, use, and
+        disclosure of information if anyone decides to use Zinko Zoom.
+      </p>
+
+      <h3>Information Collection and Use</h3>
+      <p>
+        Zinko Zoom may collect limited information required for the app to function, improve
+        stability, support gameplay features, and comply with platform requirements.
+      </p>
+
+      <p>Depending on the version of the app and services used, this may include:</p>
+      <ul>
+        <li>Device or app performance information</li>
+        <li>Crash logs and diagnostics</li>
+        <li>Advertising identifiers, if ads are used</li>
+        <li>Gameplay-related local save data stored on the device</li>
+      </ul>
+
+      <h3>Local Data</h3>
+      <p>
+        Zinko Zoom may store gameplay-related information locally on your device, such as progress,
+        settings, unlocked content, scores, upgrades, or preferences. This information is used to
+        operate the game experience.
+      </p>
+
+      <h3>Third-Party Services</h3>
+      <p>
+        The app may use third-party services that may collect information used to identify you or
+        your device, or to support analytics, crash reporting, advertising, or app functionality.
+      </p>
+
+      <p>If third-party services are used in the app, they may include providers such as:</p>
+      <ul>
+        <li>Google Play Services</li>
+        <li>Google AdMob</li>
+        <li>Firebase Analytics</li>
+        <li>Firebase Crashlytics</li>
+      </ul>
+
+      <p>
+        This list should match the services actually used in the released app.
+      </p>
+
+      <h3>Log Data</h3>
+      <p>
+        In the event of an error in the app, we may collect data and information through third-party
+        products on your device called Log Data. This Log Data may include information such as your
+        device Internet Protocol address, device name, operating system version, the configuration of
+        the app when using the service, the time and date of your use of the service, and other statistics.
+      </p>
+
+      <h3>Cookies</h3>
+      <p>
+        This app does not directly use cookies. However, the app may use third-party code and
+        libraries that use cookies or similar technologies to collect information and improve their services.
+      </p>
+
+      <h3>Service Providers</h3>
+      <p>We may employ third-party companies and individuals for the following reasons:</p>
+      <ul>
+        <li>To facilitate the service</li>
+        <li>To provide the service on our behalf</li>
+        <li>To perform service-related tasks</li>
+        <li>To assist us in analysing how the service is used</li>
+      </ul>
+
+      <p>
+        These third parties may have access to your information only to perform the tasks assigned
+        to them on our behalf. They are obligated not to disclose or use the information for any other purpose.
+      </p>
+
+      <h3>Security</h3>
+      <p>
+        We value your trust in providing your information, so we strive to use commercially
+        acceptable means of protecting it. But remember that no method of transmission over the internet,
+        or method of electronic storage, is 100% secure and reliable, and we cannot guarantee its absolute security.
+      </p>
+
+      <h3>Children’s Privacy</h3>
+      <p>
+        Zinko Zoom is not intended to knowingly collect personally identifiable information from children.
+        If you are a parent or guardian and you are aware that your child has provided us with personal information,
+        please contact us so that we can take necessary action.
+      </p>
+
+      <h3>Changes to This Privacy Policy</h3>
+      <p>
+        We may update our Privacy Policy from time to time. You are therefore advised to review this
+        page periodically for any changes. Changes are effective immediately after they are posted on this page.
+      </p>
+
+      <h3 id="contact">Contact Us</h3>
+      <p>
+        If you have any questions or suggestions about this Privacy Policy, contact us at:
+      </p>
+      <p class="contact-link">
+        <a href="mailto:gamerguru81@outlook.com">gamerguru81@outlook.com</a>
+      </p>
+
+      <div class="button-row">
+        <a class="btn btn-secondary" href="index.html">Back to Zinko Zoom</a>
+        <a class="btn btn-secondary" href="../index.html">Main Site</a>
+      </div>
+    </section>
+  </main>
+
+  <aside class="sidebar">
+    <section class="sidebar-card">
+      <h3>Navigation</h3>
+      <nav class="side-nav" aria-label="Sidebar navigation">
+        <a href="../index.html">Home</a>
+        <a href="index.html">Zinko Zoom</a>
+        <a class="active" href="privacy.html">Privacy Policy</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </section>
+
+    <section class="sidebar-card">
+      <h3>Quick Info</h3>
+      <div class="info-block">
+        <p><strong>App</strong><br>Zinko Zoom</p>
+        <p><strong>Email</strong><br>gamerguru81@outlook.com</p>
+      </div>
+    </section>
+  </aside>
+</div>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <p>&copy; 2026 Brassworks Entertainment. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
